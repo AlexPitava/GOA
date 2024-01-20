@@ -1,0 +1,26 @@
+.i1{
+    margin-bottom: 20px;
+}
+.i2{
+    margin-bottom: 20px;
+}
+.i3{
+    margin-bottom: 20px;
+}
+.i4{
+    margin-bottom: 20px;
+}
+.i5{
+    margin-bottom: 20px;
+}
+body{
+    background-color: beige;
+}
+button{
+    background-color: grey;
+    color: white;
+}
+form{
+    text-align: center;
+    margin-top: 100px;
+}
