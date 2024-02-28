@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rotate Div Counter-clockwise</title>
+<style>
+  .rotate-div {
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    transition: 0.5s ease;
+  }
+  .text {
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+  }
+</style>
+</head>
+<body>
+
+<div class="rotate-div">
+  <p class="text">Hello, I'm rotated!</p>
+</div>
+
+</body>
+</html>
+
