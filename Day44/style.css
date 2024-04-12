@@ -1,0 +1,18 @@
+.container {
+    width: 900px;
+    height: 300px;
+    background-color: rgb(255, 0, 0);
+    display: grid;
+    border: 8px solid black;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid {
+    row-gap: 20px;
+    column-gap: 20px;
+    width: 270px;
+    height: 90px;
+    background-color: rgb(137, 70, 177);
+    color: white;
+}
