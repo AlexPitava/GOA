@@ -1,0 +1,16 @@
+#container {
+    width: 320px;
+    height: 320px;
+    position: relative;
+    border: 2px solid black;
+    margin: 50px auto;
+}
+
+#child-container {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
