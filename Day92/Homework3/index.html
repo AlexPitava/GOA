@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework3</title>
+</head>
+<body>
+    <p id="text">This is a page created for homework3</p>
+
+    <script>
+        function highlightWord(word) {
+            const textElement = document.getElementById('text');
+            const regex = new RegExp(`(${word})`);
+            textElement.innerHTML = textElement.textContent.replace(regex, '<mark>$1</mark>');
+        }
+
+        highlightWord("page");
+    </script>
+</body>
+</html>
